@@ -15,5 +15,6 @@ int main()
     std::cin >> minute;
     func(hour, minute);
     std::cout << INT_MAX << std::endl;
+    std::cout << LONG_MAX << std::endl;
     return 0;
 }
