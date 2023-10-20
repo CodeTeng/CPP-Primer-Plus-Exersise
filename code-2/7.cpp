@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>  // 确定数据类型范围的头文件
 
 void func(int hour, int minute)
 {
@@ -13,5 +14,6 @@ int main()
     std::cout << "Enter the number of minutes:";
     std::cin >> minute;
     func(hour, minute);
+    std::cout << INT_MAX << std::endl;
     return 0;
 }
