@@ -55,6 +55,8 @@
         "climits": "cpp",
         "array": "cpp",
         "string": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "fstream": "cpp",
+        "sstream": "cpp"
     }
 }
